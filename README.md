@@ -28,7 +28,7 @@ For Debian/Ubuntu users:
 
 For Windows users:
 //Goto :http://www.lfd.uci.edu/~gohlke/pythonlibs/ and download the mentioned python packages for your python version
-1.  Downliad the zip file
+1.  Download the zip file
 2.  Extract it
 3.  Right-Click -> Edit with IDLE
 4.  F5
