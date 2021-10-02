@@ -1,37 +1,16 @@
-# Soil-Analysis-and-Yield-Prediction
-Classification and Clustering of Soil
+## Soil-Analysis-and-Yield-Prediction
 
-Through Various Machine Learning Algorithms, I have classified 20 soil dataset into different(mainly in 3) goups/clusters.
+Supervised Learning Algorithms used:
 
-Technology used:  Python 3.5
+1. [KNN {K-nearest Neighbour}](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) and [Implementation](https://github.com/vitalbullet/Soil-Analysis-and-Yield-Prediction/blob/master/machine.py#L27)
+2. [NaiveBayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) and [Implementation](https://github.com/vitalbullet/Soil-Analysis-and-Yield-Prediction/blob/master/machine.py#L41)
+3. [Support Vector Machine](https://en.wikipedia.org/wiki/Support-vector_machine) and [Implementation](https://github.com/vitalbullet/Soil-Analysis-and-Yield-Prediction/blob/master/machine.py#L54)
 
-Platform : Linux OS, Mac, Windows
+Clustering Algorithm used:
 
-Pre-requisites:
-Python Packages: ipython,matplotlib,numpy,pandas,scipy,scikit-learn,mglearn
+1. [K-Means](https://en.wikipedia.org/wiki/K-means_clustering) and [Implementation](https://github.com/vitalbullet/Soil-Analysis-and-Yield-Prediction/blob/master/machine.py#L67)
+2. [Hierarchical Clustering](https://en.wikipedia.org/wiki/Hierarchical_clustering) and [Implementation](https://github.com/vitalbullet/Soil-Analysis-and-Yield-Prediction/blob/master/machine.py#L80)
 
-Steps to use:
+Differential Evolution for finding Cluster Heads:
 
-For Debian/Ubuntu users:
-//Using Virtual Environment
-1.  sudo apt-get install python3-pip,python3-virtualenv
-2.  virtualenv --python=python3 <name_of_the_virtual_environment_dir>
-3.  cd <name_of_the_virtual_environment_dir>
-4.  source bin/activate
-5.  mkdir Projects
-6.  cd Projects
-7.  mkdir Soil_Analysis_Yield_prediction
-8.  cd Soil_Analysis_Yield_prediction
-9.  //Paste/Extract all csv files+ python file
-10. pip3 install ipython,matplotlib,numpy,pandas,scipy,scikit-learn,mglearn
-11. python machine.py
-
-For Windows users:
-//Goto :http://www.lfd.uci.edu/~gohlke/pythonlibs/ and download the mentioned python packages for your python version
-1.  Download the zip file
-2.  Extract it
-3.  Right-Click -> Edit with IDLE
-4.  F5
-
-ENJOY!
-Feel Free to contact me:  vitalbullet96@gmail.com
+UPDATE: due to high demand for cleaner, effective(easy to read) and optimized code, I have implemented a multi-threaded version of this algorithm in c++. Do feel to check it out, [here](https://github.com/vitalbullet/Soil-Analysis-and-Yield-Prediction-II) 
